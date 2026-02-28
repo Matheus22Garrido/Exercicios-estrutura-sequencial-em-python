@@ -1,0 +1,11 @@
+#declarar
+Cateto_1: float = 0.0
+Cateto_2: float = 0.0
+Hipotenusa: float = 0.0
+
+#inicio 
+Cateto_1 = float(input("Digite o valor do primeiro cateto: "))
+Cateto_2 = float(input("Digite o valor do segundo cateto: "))
+Hipotenusa = ((Cateto_1 * Cateto_1) + (Cateto_2 * Cateto_2))**(1/2)
+print ("Valor da hipotenusa: " , Hipotenusa)
+#fim
