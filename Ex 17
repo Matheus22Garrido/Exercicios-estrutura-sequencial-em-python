@@ -1,0 +1,14 @@
+#declarar
+Litros_gastos: float = 0.0
+Tempo_de_percurso: float = 0.0
+Velocidade_média: float = 0.0
+Distância_percorrida: float = 0.0
+
+#inicio
+Distância_percorrida = float(input("Digite a distância percorrida na viagem em km: "))
+Tempo_de_percurso = float(input("Digite quanto durou a viagem em horas: "))
+Velocidade_média = Distância_percorrida/Tempo_de_percurso
+Litros_gastos = Distância_percorrida/12
+print ("Litros gastos na viagem: " , Litros_gastos)
+print ("Velocidade média da viagem: " , Velocidade_média)
+#fim
