@@ -1,0 +1,9 @@
+#Declarar
+Lado: float = 0.0
+Área: float = 0.0
+
+#Inicio
+Lado = float(input("digite o lado:"))
+Área = Lado * Lado
+print ("Área =", Área)
+#Fim
