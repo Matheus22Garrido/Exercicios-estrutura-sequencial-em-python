@@ -1,0 +1,11 @@
+#declarar
+Base: float = 0.0
+Altura: float = 0.0
+área: float = 0.0
+
+#inicio
+Base = float(input("digite a base:"))
+Altura = float(input("digite a altura:"))
+área = (Base * Altura)/2
+print ("área do triangulo = " , área)
+#fim
