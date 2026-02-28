@@ -1,0 +1,11 @@
+#declarar
+depósito: float = 0.0
+valor_final: float = 0.0
+mês: int = 0
+
+#inicio
+depósito = float(input("Digite qual o valor do depósito: "))
+mês = int(input("Digite quantos meses o dinheiro ficará aplicado: "))
+valor_final = ((depósito*(1.013)**mês))
+print ("Dinheiro com reajuste depois dos juros:" , valor_final )
+#fim
