@@ -1,0 +1,11 @@
+#declarar
+import math
+Pi = math.pi
+Raio: float = 0.0
+Comprimento: float = 0.0
+
+#inicio
+Raio = float(input("Digite o valor do raio círculo: "))
+Comprimento = (2*Pi*Raio)
+print ("Comprimento do círculo selecionado:" , Comprimento)
+#fim
