@@ -1,0 +1,9 @@
+#declarar
+Alimento: float = 0.0
+Duração: int = 0
+
+#inicio
+Alimento = float(input("Digite quantos quilos de alimento você tem: "))
+Duração = (Alimento*1000/50)
+print (f"Sua quantidade de alimento durará {Duração} dias")
+#fim
