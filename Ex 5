@@ -1,0 +1,16 @@
+#declarar
+a: float = 0.0
+b: float = 0.0
+c: float = 0.0
+r1: float = 0.0
+r2: float = 0.0
+
+#inicio
+a = float(input("digite quem acompanha X²:"))
+b = float(input("digite quem acompanha X:"))
+c = float(input("digite o termo independente:"))
+r1 = (-b + ( b * b -(4*a*c))**(1/2))/(2*a)
+r2 = (-b - ( b * b -(4*a*c))**(1/2))/(2*a)
+print ("Primeira raiz:" , r1)
+print ("Segunda raiz:" , r2)
+#fim
