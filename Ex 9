@@ -1,0 +1,11 @@
+#declarar
+a: int = 0
+b: int = 0
+soma: int = 0
+
+#inicio
+a = int(input("Digite o primeiro número do quadrado: "))
+b = int(input("Digite o segundo número do quadrado: "))
+soma = (a*a+2*a*b+b*b)
+print ("Valor da soma dos quadrados: " , soma)
+#fim
