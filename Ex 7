@@ -1,0 +1,13 @@
+#declarar
+comprimento: float = 0.0
+largura: float = 0.0
+altura: float = 0.0
+volume: float = 0.0
+
+#inicio
+comprimento = float(input("Digite o comprimento:"))
+largura = float(input("digite a largura:"))
+altura = float(input("digite a altura:"))
+volume = (altura * largura * comprimento)
+print ("volume do paralelepipedo:" , volume)
+#fim
