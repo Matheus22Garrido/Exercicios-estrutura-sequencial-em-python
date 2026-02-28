@@ -1,0 +1,11 @@
+#declarar
+Ângulo_1: float = 0.0
+Ângulo_2: float = 0.0
+Ângulo_3: float = 0.0
+
+#inicio
+Ângulo_1 = float(input("Digite o valor do primeiro ângulo: "))
+Ângulo_2 = float(input("Digite o valor do segundo ângulo: "))
+Ângulo_3 = (180 - (Ângulo_1 + Ângulo_2))
+print ("Valor do último ângulo do triângulo: " , Ângulo_3)
+#fim
