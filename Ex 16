@@ -1,0 +1,17 @@
+#declarar
+Horas_trabalhadas: float = 0.0
+Preço_por_hora: float = 0.0
+Desconto: float = 0.0
+Quantidade_de_descendentes: int = 0
+Salário_bruto: float = 0.0
+Salário_líquido: float = 0.0
+
+#inicio
+Horas_trabalhadas = float(input("Digite quantas horas você trabalhou: "))
+Preço_por_hora = float(input("Digite qual o valor da hora trabalhada: "))
+Desconto = float(input("Digite de 0 a 100 o percentual de desconto {sem usar %}: "))
+Quantidade_de_descendentes = int(input("digite quantos descendentes você tem: "))
+Salário_bruto = Horas_trabalhadas * Preço_por_hora
+Salário_líquido = ((Salário_bruto - (Salário_bruto * (Desconto/100))) + (Quantidade_de_descendentes * 100))
+print ("Salário líquido a receber: " ,Salário_líquido)
+#fim
