@@ -1,0 +1,9 @@
+#declarar
+Temperatura_C: float = 0.0
+Temperatura_F: float = 0.0
+
+#inicio
+Temperatura_C = float(input("digite a temperatura em celsius: "))
+Temperatura_F = ((Temperatura_C * 9 +160)/5)
+print ("Temperatura em Fahrenheit: " , Temperatura_F)
+#fim
