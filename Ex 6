@@ -1,0 +1,11 @@
+#declarar
+x: float = 0.0
+y: float = 0.0
+
+#inicio
+x = float(input("digite o valor inicial de x:"))
+y = float(input("digite o valor inicial de y:"))
+x, y = y, x
+print ("valor de x depois da inversão:" , x)
+print ("valor de y depois da inversão:" , y)
+#fim
