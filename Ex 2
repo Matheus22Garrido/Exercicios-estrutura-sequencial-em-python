@@ -5,5 +5,5 @@ salário_novo: float = 0.0
 #inicio
 salário_atual = float(input("digite o salário atual:"))
 salário_novo = salário_atual * 1.15
-print (salário_novo)
+print ("salário novo:" , salário_novo)
 #fim
