@@ -1,0 +1,11 @@
+#declarar
+x: float = 0.0
+y: float = 0.0
+Diferença: float = 0.0
+
+#inicio
+x = float(input("Digite o valor do primeiro número: "))
+y = float(input("digite o valor do segundo número: "))
+Diferença = (x - y)
+print ("diferença entre os números:" , Diferença )
+#fim
