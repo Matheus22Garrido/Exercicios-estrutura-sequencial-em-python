@@ -1,0 +1,14 @@
+#declarar
+Nascimento: int = 0
+Atual: int = 0
+Idade: int = 0
+Em_17_anos: int = 0
+
+#inicio
+Atual = int(input("Digite o ano atual: "))
+Nascimento = int(input("Digite o ano de seu nascimento: "))
+Idade = (Atual - Nascimento)
+Em_17_anos = (Idade + 17)
+print ("Sua idade ao final do ano atual: " , Idade)
+print ("Sua idade em 17 anos: " , Em_17_anos)
+#fim
